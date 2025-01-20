@@ -17,4 +17,7 @@ Contributors:
 /----------------------------------------------------------------------------*/
 #pragma once
 
+#include "esphome.h"
+using esphome::esp_log_printf_;
+
 #include "lgfx/v1_autodetect/common.hpp"
